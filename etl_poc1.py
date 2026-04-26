@@ -1,6 +1,6 @@
 import requests
 
-url = "https://brn-etl-0311.s3.us-east-1.amazonaws.com/MOCK_DATA.csv"
+url = "https://...csv"
 
 print("Baixando arquivo...")
 
