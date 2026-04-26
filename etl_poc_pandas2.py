@@ -1,6 +1,6 @@
 import pandas as pd
 
-url = "https://brn-etl-0311.s3.us-east-1.amazonaws.com/MOCK_DATA.csv"
+url = "https://...csv"
 
 df = pd.read_csv(url)
 print(f"1. CSV lido: {len(df)} linhas")
