@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(filename='etl_transactions.log', level=logging.INFO,
                     format='%(asctime)s - %(message)s')
 
-host = "192.168.15.102"
+host = "192.000.00.000"
 banco = "poc_mvc"
 usuario = "postgres"
 senha = "postgres"
