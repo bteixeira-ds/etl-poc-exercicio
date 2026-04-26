@@ -19,7 +19,6 @@ df['valido'] = True
 for i, row in df.iterrows():
     erros = []
     
-    # Regras
     if row['flag'] not in [1,2,3,4,5]:
         erros.append('flag invalida')
     if len(str(row['card_number'])) != 16:
